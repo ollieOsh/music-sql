@@ -77,7 +77,7 @@ select s.title as "Song", al.title as "Album", ar.artistname as "Artist"
 from Song s
 left join album al on s.albumid = al.albumid
 left join artist ar on s.artistid = ar.artistid
-where s.title = "Magnolia";
+where ar.artistname = "Playboi Carti";
 
 --6
 /*Write a SELECT statement to display how many songs exist for each album.
