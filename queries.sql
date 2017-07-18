@@ -108,15 +108,13 @@ group by g.genreid;
 /*Using MAX() function, write a select statement to find the album with the longest duration. 
 The result should display the album title and the duration.*/
 select title, max(albumlength) as "Duration"
-from Album
-where albumlength;
+from Album;
 
 --10
 /*Using MAX() function, write a select statement to find the song with the longest duration. 
 The result should display the song title and the duration.*/
 select title, max(songlength) as "Duration"
-from song
-where songlength;
+from song;
 
 --11
 --Modify the previous query to also display the title of the album.
